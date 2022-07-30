@@ -91,10 +91,10 @@ if page == 'Project':
 
     # Problem Definition
     st.markdown('''<p class="big-font">Sebanyak 
-            191 juta warga Indonesia merupakan pengguna aktif media sosial pada Januari 2022, data tersebut menunjukkan bahwa hampir 70% masyarakat indonesia
-            merupakan pengguna aktif media sosial. Melihat data tersebut, bukan hanya perusahaan besar, bahkan warga biasa
+            191 juta warga Indonesia, 70% dari keseluruhan masyarakat, merupakan pengguna aktif media sosial pada Januari 2022. 
+            Melihat data tersebut, bukan hanya perusahaan besar, bahkan warga biasa
             dapat menyusun strategi memaksimalkan opportunity untuk menjangkau pelanggan sebanyak-banyaknya
-            melalui media sosial. Timbul pertanyaan, media sosial apa yang memiliki potensi market terbesar?
+            melalui media sosial. Lalu timbul pertanyaan, media sosial apa yang memiliki potensi market terbesar?
             Bisakah data menjawabnya?</p>''', unsafe_allow_html=True)
     top1, top2 = st.columns([1,1])
     with top1:
@@ -112,23 +112,23 @@ if page == 'Project':
         st.caption('Pengguna Aktif Media Sosial Terbanyak dalam jutaan (hootsuite.com)')
     with top2:
         st.markdown('---')
-        st.markdown('''<p class="big-font"> Nama-nama media sosial di samping tidaklah asing bagi masyarakat indonesia, apalagi
-                setelah dilanda situasi pandemi, media-media sosial tersebut sudah bersinonim dengan aktivitas kita sehari-hari.
+        st.markdown('''<p class="big-font"> Nama-nama media sosial di samping tidaklah asing bagi masyarakat Indonesia, apalagi
+                setelah dilanda situasi pandemi, media sosial tersebut sudah bersinonim dengan aktivitas kita sehari-hari.
                 Namun, media sosial yang berada di chart ini memiliki bidang spesialisasi yang berbeda-beda, sehingga tidak semua
                 mampu untuk dijadikan platform marketing yang dapat diandalkan. Platform marketing yang diperlukan adalah situs dengan 
-                fitur iklan yang dapat memenuhi kebutuhan marketing sang pengusaha, maka dibutuhkan opini dari pihak-pihak yang kredibel
-                untuk memberikan gambaran media sosial yang tepat dijadikan platform marketing.</p>''', unsafe_allow_html=True)
+                fitur iklan yang dapat memenuhi kebutuhan marketing sang pengusaha. Oleh karena itu, dibutuhkan opini dari pihak yang kredibel
+                untuk memberikan gambaran media sosial yang tepat untuk dijadikan platform marketing.</p>''', unsafe_allow_html=True)
 
 
     bot1, bot2 = st.columns([2,1])
     with bot1:
         st.markdown('---')
-        st.markdown('''<p class="big-font">Sebanyak 93% dari agensi marketing profesional di amerika serikatakan menggunakan 
+        st.markdown('''<p class="big-font">Sebanyak 93% dari agensi marketing profesional di Amerika Serikat akan menggunakan 
                 sosial media sebagai platform marketing.
-                Sepuluh media sosial dengan hasil survey terbaik tersebut tidaklah acak, melainkan mereka adalah media sosial yang 
-                memiliki fitur dan potensi untuk marketing yang jauh lebih besar dibandingkan dengan situs yang lainnya.
+                Sepuluh media sosial dengan hasil survey terbaik tersebut bukanlah acak, melainkan mereka adalah media sosial yang 
+                memiliki fitur dan potensi untuk marketing yang jauh lebih besar dibandingkan dengan platform yang lainnya.
                 Hal tersebut memberikan implikasi lebih bahwa para marketer profesional menggunakan banyak pertimbangan
-                dalam pemilihan platform yang tepat. Untuk membuktikan hal tersebut, kita dapat melakukan korelasi antara
+                dalam pemilihan platform yang tepat. Untuk membuktikan implikasi tersebut, dapat dilakukan korelasi antara
                 kedua data yang telah ditunjukkan.
                 </p>''', unsafe_allow_html=True)
     with bot2:
@@ -154,9 +154,10 @@ if page == 'Project':
     with act2:
         st.markdown('---')
         st.markdown('''<p class="big-font">
-                Dengan melihat korelasi kedua data di atas, didapatkan hubungan antara popularitas sebuah media sosial dengan
-                marketability menurut para profesional. Namun, dari 10 besar kedua data di atas hanya 7 media sosial yang konsisten ada,
-                hal ini disebabkan platform-platform seperti Whatsapp dan WeChat memiliki fitur periklanan yang terbatas.
+                Dengan menggambarkan korelasi kedua data di atas, didapatkan hubungan antara popularitas sebuah media sosial dengan
+                marketability menurut para profesional yaitu berkorelasi positif. 
+                Namun, dari seluruh media sosial di kedua data, hanya 7 media sosial yang konsisten berada di keduanya.
+                Hal ini dapat disebabkan karena platform seperti Whatsapp dan WeChat memiliki fitur periklanan yang terbatas.
                 Terdapat 4 platform yang berada di puncak media sosial dan marketing yaitu Instagram, TikTok, Facebook, dan YouTube. 
                 Namun, kedua data yang telah ditunjukkan berasal dari global dan Amerika Serikat, sehingga masih
                 diperlukan analisis kondisi terhadap trend di Indonesia sebagai insight yang lebih relevan.
@@ -222,11 +223,11 @@ if page == 'Project':
     with met4:
         st.metric("Facebook", "42","-45%")
     st.markdown('''<p class="big-font">
-                Terdapat detil-detil menarik yang dapat kita simpulkan dari data di atas. TikTok, dalam kurun waktu dua tahun
-                telah menjadi media sosial paling "trendy" di google. Sedangkan, media-media sosial yang telah lama menjadi
+                Terdapat beberapa detil menarik yang dapat disimpulkan dari data di atas: TikTok dalam kurun waktu dua tahun
+                telah menjadi media sosial paling "trendy" di Google; Sedangkan, media sosial yang telah lama menjadi
                 bagian dari kehidupan internet Indonesia seperti Facebook dan YouTube, telah mengalami penurunan dari masa ke masa.
-                Tahap selanjutnya adalah untuk mencari tahu latar belakang para pencipta "trend" tersebut dan pandangan
-                publik terhadap media sosial tersebut untuk menemukan benang merah jawaban dari pertanyaan di awal. </p>''', unsafe_allow_html=True)
+                Tahap selanjutnya adalah untuk mencari tahu sebaran umur para pembentuk "trend" dan pandangan
+                publik terhadap media sosial tersebut untuk menemukan benang merah dari permasalahan ini. </p>''', unsafe_allow_html=True)
 
 
     st.markdown("---")
@@ -410,12 +411,12 @@ if page == 'Project':
 
     st.subheader('Rekomendasi berdasarkan Analisis')
     st.write("""Pandangan terhadap topik ini menjadi lebih objektif setelah mendapatkan 
-            analisis terhadap keempat media sosial dari sisi tren, demografi, dan sentimen publik.
+            analisis terhadap keempat media sosial dari sisi tren, demografi umur, dan sentimen publik.
             Proses analisis masih dapat dilengkapi dengan memperhitungkan variabel yaitu bentuk
-            dari konten itu sendiri. Secara umum, para marketer berpendapat kalau
-            konten dapat dibedakan menjadi Image dan Video, hal ini merupakan tulang
+            dari konten marketing itu sendiri. Secara umum, para marketer berpendapat bahwa
+            konten dapat dibedakan menjadi Image dan Video, kedua hal tersebut merupakan tulang
             punggung dari media sosial sehingga kita dapat menemukan hubungannya. Untuk menganalisis
-            konten apa yang paling menggambarkan suatu media sosial, kita dapat melakukan twitter
+            konten seperti apa yang paling menggambarkan suatu media sosial, kita dapat melakukan Twitter
             web scraping dengan kata kunci yakni nama media sosial tersebut, lalu dikemas dengan visualisasi dalam bentuk word cloud. 
             """)
     st.markdown('---')
