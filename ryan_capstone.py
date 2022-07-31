@@ -139,10 +139,10 @@ if page == 'Project':
                     y=df_marketing['value'],
                     orientation='v',
                     width=0.7))
+        data_m.update_layout(xaxis_title="Media Sosial", yaxis_title="Persentase Marketer Memilih (%)")
         layout_m = data_m['layout'].update(margin=dict(l=0,r=0,b=0,t=0),height=300)
 
         fig_m = dict(data=data_m, layout=layout_m)
-        fig_m.update_layout(xaxis_title="Media Sosial", yaxis_title="Persentase Marketer Memilih (%)")
         st.plotly_chart(fig_m, use_container_width=True)
         st.caption("Pilihan Media Sosial untuk Marketing dalam persen (statista.com)")
 
