@@ -108,6 +108,7 @@ if page == 'Project':
                       height= 450,
                       range_x=[0,3000],
                       orientation='h')
+        fig2.update_layout( xaxis_title="Pengguna Aktif Bulanan (jutaan)", yaxis_title="Media Sosial")
         st.plotly_chart(fig2, use_container_width=True)
         st.caption('Pengguna Aktif Media Sosial Terbanyak dalam jutaan (hootsuite.com)')
     with top2:
@@ -141,6 +142,7 @@ if page == 'Project':
         layout_m = data_m['layout'].update(margin=dict(l=0,r=0,b=0,t=0),height=300)
 
         fig_m = dict(data=data_m, layout=layout_m)
+        fig_m.update_layout(xaxis_title="Media Sosial", yaxis_title="Persentase Marketer Memilih (%)")
         st.plotly_chart(fig_m, use_container_width=True)
         st.caption("Pilihan Media Sosial untuk Marketing dalam persen (statista.com)")
 
@@ -149,6 +151,7 @@ if page == 'Project':
     with act1:
         summary = pd.read_csv('summary.csv')
         fig_sum = px.scatter(summary, x="market", y="users",color='media', trendline='ols',trendline_scope = 'overall',trendline_color_override = 'blue')
+        fig_sum.update_layout( xaxis_title="Persentase Marketer Memilih (%)", yaxis_title="Pengguna Aktif Bulanan (jutaan)")
         st.plotly_chart(fig_sum, use_container_width=True)
         st.caption('Analisis Korelasi antara Jumlah User dan Trend Marketing')
     with act2:
@@ -210,6 +213,7 @@ if page == 'Project':
                 ),
             ]
         )
+        fig.update_layout(xaxis_title="Tanggal", yaxis_title="Trend Google Search (0-100)")
         st.plotly_chart(fig, use_container_width=True)
 
     met1, met2, met3, met4 = st.columns([1,1,1,1])
@@ -241,7 +245,7 @@ if page == 'Project':
             go.Bar(name='Female', x=de_youtube['age'], y=de_youtube['female']),
             go.Bar(name='Male', x=de_youtube['age'], y=de_youtube['male'])
             ])
-            fig5.update_layout(barmode='group',title_text = 'Data Demografik Umur YouTube (%)', title_x = 0.5)
+            fig5.update_layout(barmode='group',title_text = 'Data Demografik Umur YouTube (%)', title_x = 0.5,xaxis_title="Kelompok Umur", yaxis_title="Persentase dari Total User (%)")
             st.plotly_chart(fig5, use_container_width=True)
         with yt2:
             st.markdown("""YouTube tidak hanya berfungsi sebagai media sosial untuk tujuan hiburan/rekreasi,
@@ -283,7 +287,7 @@ if page == 'Project':
             go.Bar(name='Female', x=de_instagram['age'], y=de_instagram['female']),
             go.Bar(name='Male', x=de_instagram['age'], y=de_instagram['male'])
             ])
-            fig4.update_layout(barmode='group',title_text = 'Data Demografik Umur Instagram (%)', title_x = 0.5)
+            fig4.update_layout(barmode='group',title_text = 'Data Demografik Umur Instagram (%)', title_x = 0.5,xaxis_title="Kelompok Umur", yaxis_title="Persentase dari Total User (%)")
             st.plotly_chart(fig4, use_container_width=True)
         with ig2:
             st.markdown("""Instagram berfokus dalam mem-posting foto dan video, dengan tujuan
@@ -323,7 +327,7 @@ if page == 'Project':
         tk1, tk2, tk3 = st.columns([1,1,1])
         with tk1:
             fig6 = go.Figure([go.Bar(name='Percentage', x=de_tiktok['age'], y=de_tiktok['value'])])
-            fig6.update_layout(title_text = 'Data Demografik Umur TikTok (%)', title_x = 0.5)
+            fig6.update_layout(title_text = 'Data Demografik Umur TikTok (%)', title_x = 0.5,xaxis_title="Kelompok Umur", yaxis_title="Persentase dari Total User (%)")
             st.plotly_chart(fig6, use_container_width=True)
         with tk2:
             st.markdown("""TikTok, media sosial termuda dari empat yang dibahas, merupakan tempat bagi
@@ -362,7 +366,7 @@ if page == 'Project':
         fb1, fb2, fb3 = st.columns([1,1,1])
         with fb1:
             fig6 = go.Figure([go.Bar(name='Percentage', x=de_facebook['age'], y=de_facebook['value'])])
-            fig6.update_layout(title_text = 'Data Demografik Umur Facebook (%)', title_x = 0.5)
+            fig6.update_layout(title_text = 'Data Demografik Umur Facebook (%)', title_x = 0.5,xaxis_title="Kelompok Umur", yaxis_title="Persentase dari Total User (%)")
             st.plotly_chart(fig6, use_container_width=True)
         with fb2:
             st.markdown("""Facebook adalah media sosial yang paling bersinonim dengan aktivitas internet
@@ -404,7 +408,7 @@ if page == 'Project':
             go.Bar(name='TikTok', y=de_all['TikTok'], x=de_all['age'], orientation='v'),
             go.Bar(name='Facebook', y=de_all['Facebook'], x=de_all['age'], orientation='v')
             ])
-            fig5.update_layout(barmode='group')
+            fig5.update_layout(barmode='group',xaxis_title="Kelompok Umur", yaxis_title="Persentase dari Total User (%)")
             st.plotly_chart(fig5, use_container_width=True)
 
     st.markdown("---")
