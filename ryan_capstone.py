@@ -157,7 +157,7 @@ if page == 'Project':
     with act2:
         st.markdown('---')
         st.markdown('''<p class="big-font">
-                Dengan menggambarkan korelasi kedua data di atas, didapatkan hubungan antara popularitas sebuah media sosial dengan
+                Dengan menggambarkan korelasi dari kedua data di atas, didapatkan hubungan antara popularitas sebuah media sosial dengan
                 marketability menurut para profesional yaitu berkorelasi positif. 
                 Namun, dari seluruh media sosial di kedua data, hanya 7 media sosial yang konsisten berada di keduanya.
                 Hal ini dapat disebabkan karena platform seperti Whatsapp dan WeChat memiliki fitur periklanan yang terbatas.
