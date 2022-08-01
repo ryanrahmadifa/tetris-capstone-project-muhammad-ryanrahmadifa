@@ -299,7 +299,7 @@ if page == 'Project':
             st.markdown('---')
             st.markdown("""Pandangan publik terhadap instagram relatif netral dengan perbandingan 2.3 : 1
                         untuk positif dan negatif. Dengan ekosistem sosial instagram, orang-orang
-                        tidak akan mudah merasa terugikan dengan melihat foto/menonton video
+                        tidak akan mudah merasa dirugikan dengan melihat foto/menonton video
                         dari seseorang yang mereka follow. Hal yang perlu digaris bawahi dalam instagram
                         ini adalah andil para influencer yang diikuti, memiliki
                         kemungkinan yang besar untuk menyukseskan marketing terhadap para followers.""")
@@ -373,7 +373,7 @@ if page == 'Project':
                         warga Indonesia selama ini berdasarkan data.  Selain foto dan video, user dapat membagikan
                         artikel-artikel, opini, dan pekerjaan yang dilakukan. Facebook juga memiliki fitur untuk
                         membangun komunitas dan mendorong aktivitas networking,
-                        baik lingkup personal sampai profesional.Dengan jumlah user terbanyak dari keempat
+                        baik lingkup personal sampai profesional. Dengan jumlah user terbanyak dari keempat
                         media sosial, demografi umur Facebook mayoritas berada di usia perkuliahan
                         dan profesional bekerja.""")
             st.markdown('---')
