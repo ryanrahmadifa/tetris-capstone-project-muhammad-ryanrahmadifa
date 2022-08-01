@@ -258,7 +258,7 @@ if page == 'Project':
             st.markdown('---')
             st.markdown("""
                     Sentimen publik terhadap YouTube mayoritas bersifat positif dengan perbandingan 3:1 terhadap
-                    sentimen negatif. Data tersebuts menunjukkan bahwa
+                    sentimen negatif. Data tersebut menunjukkan bahwa
                     YouTube tidak hanya salah satu media sosial yang telah lama terbangun,
                     tetapi memiliki sentimen publik yang merasa diberikan manfaat olehnya. Hal ini
                     dapat memberikan dorongan lebih untuk kepastian keberadaan market di YouTube.""")
