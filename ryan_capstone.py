@@ -581,6 +581,7 @@ Dalam pengiklanan, YouTube memberikan banyak pilihan format. Format tersebut ada
 
 if page == 'Documentation':
     st.markdown('''<p class="big-font">What tools were used in the making of this project?</p>''', unsafe_allow_html=True)
+    st.markdown('* Python in Data collecting')
     st.markdown('* MySQL, Ms.Excel, and Python in Data Processing and Cleaning')
     st.markdown('* Python in Data Visualization')
     st.markdown('''<p class="big-font">Where can we see the sentiment analysis that was done?</p>''', unsafe_allow_html=True)
