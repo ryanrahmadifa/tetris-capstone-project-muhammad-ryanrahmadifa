@@ -91,7 +91,7 @@ if page == 'Project':
 
     # Problem Definition
     st.markdown('''<p class="big-font">Sebanyak 
-            191 juta warga Indonesia, 70% dari keseluruhan masyarakat, merupakan pengguna aktif media sosial pada Januari 2022. 
+            191 juta warga Indonesia, 70% dari keseluruhan masyarakat, merupakan pengguna aktif media sosial pada Januari 2022 (DataReportal). 
             Melihat data tersebut, bukan hanya perusahaan besar, bahkan warga biasa
             dapat menyusun strategi memaksimalkan opportunity untuk menjangkau pelanggan sebanyak-banyaknya
             melalui media sosial. Lalu timbul pertanyaan, media sosial apa yang memiliki potensi market terbesar?
