@@ -438,7 +438,7 @@ if page == 'Project':
             wc_yt = st.image(Image.open("wc_instagram.png"), caption = 'Frekuensi kata-kata dalam tweet bertopik Instagram')
         with opsi2:
             st.write("""Melalui analisis tweets menggunakan TwitterAPI, kata-kata yang paling sering
-                    menemani tweets bertopik Instagram antara lain: foto, posted, follower, dan video.
+                    menemani tweets bertopik Instagram antara lain: foto, posted, dan follower.
                     Seperti yang telah dibahas, fitur utama dari Instagram berpacu kepada mem-post
                     foto dan video. Dari foto dan video tersebut, para user akan senantiasa membahas
                     atau menyebarkan info tentang hal-hal menarik yang ditemukan melalui
