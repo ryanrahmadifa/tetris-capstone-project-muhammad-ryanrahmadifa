@@ -108,7 +108,7 @@ if page == 'Project':
                       height= 450,
                       range_x=[0,3000],
                       orientation='h')
-        fig2.update_layout( xaxis_title="Pengguna Aktif Bulanan (jutaan)", yaxis_title="Media Sosial")
+        fig2.update_layout( xaxis_title="Pengguna Aktif Bulanan (jutaan)", yaxis_title="Media Sosial",showlegend = False)
         st.plotly_chart(fig2, use_container_width=True)
         st.caption('Pengguna Aktif Media Sosial Terbanyak dalam jutaan (hootsuite.com)')
     with top2:
@@ -150,7 +150,7 @@ if page == 'Project':
     act1,act2 = st.columns([1,1])
     with act1:
         summary = pd.read_csv('summary.csv')
-        fig_sum = px.scatter(summary, x="market", y="users",color='media', trendline='ols',trendline_scope = 'overall',trendline_color_override = 'blue')
+        fig_sum = px.scatter(summary, x="market", y="users",color='media',size = 'age', trendline='ols',trendline_scope = 'overall',trendline_color_override = 'blue')
         fig_sum.update_layout( xaxis_title="Persentase Marketer Memilih (%)", yaxis_title="Pengguna Aktif Bulanan (jutaan)")
         st.plotly_chart(fig_sum, use_container_width=True)
         st.caption('Analisis Korelasi antara Jumlah User dan Trend Marketing')
