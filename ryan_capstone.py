@@ -8,6 +8,7 @@ import plotly_express as px
 from streamlit_option_menu import option_menu
 
 st.set_page_config(layout='wide')
+CURRENT_THEME = 'Custom Theme'
 
 # ws
 df = pd.read_csv("google_trends.csv")
