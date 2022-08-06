@@ -616,7 +616,7 @@ if page == 'Contact':
     link1,link2,link3,link4 = st.columns([1,1,1,1])
     with link3:
         st.markdown(
-            "[![this is an image link](https://i.ibb.co/JsL34VP/2.png)](https://mail.google.com/)"
+            "[![this is an image link](https://i.ibb.co/94mNmwj/2.png)](https://mail.google.com/)"
         )
     with link1:
         st.markdown(
