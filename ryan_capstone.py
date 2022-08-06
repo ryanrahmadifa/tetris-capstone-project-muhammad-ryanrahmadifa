@@ -620,7 +620,7 @@ if page == 'Contact':
         )
     with link1:
         st.markdown(
-            "[![this is an image link](https://i.ibb.co/sqCS0sv/1.png)](https://www.linkedin.com/in/m-ryan-rahmadifa/)"
+            "[![this is an image link](https://i.ibb.co/6BNGgsS/1.png)](https://www.linkedin.com/in/m-ryan-rahmadifa/)"
         )
     link1,link2,link3,link4 = st.columns([1,1,1,1])
     with link1:
