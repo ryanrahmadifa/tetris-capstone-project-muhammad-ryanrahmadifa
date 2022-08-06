@@ -139,7 +139,7 @@ if page == 'Project':
                     x=df_marketing['media'],
                     y=df_marketing['value'],
                     orientation='v',
-                    range_y=[0,100]
+                    range_y=[0,100],
                     width=0.7))
         data_m.update_layout(xaxis_title="Media Sosial", yaxis_title="Persentase Marketer Memilih (%)")
         layout_m = data_m['layout'].update(margin=dict(l=0,r=0,b=0,t=0),height=300)
