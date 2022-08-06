@@ -620,14 +620,14 @@ if page == 'Contact':
         )
     with link1:
         st.markdown(
-            "[![this is an image link](https://i.ibb.co/6BNGgsS/1.png)](https://www.linkedin.com/in/m-ryan-rahmadifa/)"
+            "[![this is an image link](https://i.ibb.co/WDRmsyq/1.png)](https://www.linkedin.com/in/m-ryan-rahmadifa/)"
         )
     link1,link2,link3,link4 = st.columns([1,1,1,1])
     with link1:
         st.markdown(
-            "[![this is an image link](https://i.ibb.co/wgjpjJ6/3.png)](https://www.instagram.com/ryanrahmadifa/)"
+            "[![this is an image link](https://i.ibb.co/t8T9X1V/3.png)](https://www.instagram.com/ryanrahmadifa/)"
         ) 
     with link3:
         st.markdown(
-            "[![this is an image link](https://i.ibb.co/3Bk1mtd/4.png)](https://line.me/en/)"
+            "[![this is an image link](https://i.ibb.co/nBrPDnn/4.png)](https://line.me/en/)"
         )
