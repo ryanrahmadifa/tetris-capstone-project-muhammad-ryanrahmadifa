@@ -159,8 +159,8 @@ if page == 'Project':
         st.markdown('---')
         st.markdown('''<p class="big-font">
                 Dengan menggambarkan korelasi dari kedua data di atas, didapatkan hubungan antara popularitas sebuah media sosial dengan
-                marketability menurut para profesional yaitu berkorelasi positif. 
-                Namun, dari seluruh media sosial di kedua data, hanya 7 media sosial yang konsisten berada di keduanya.
+                marketability menurut para profesional yaitu berkorelasi positif tetapi lemah.
+                Dari seluruh media sosial di kedua data, hanya 7 media sosial yang konsisten berada di keduanya.
                 Hal ini dapat disebabkan karena platform seperti Whatsapp dan WeChat memiliki fitur periklanan yang terbatas.
                 Terdapat 4 platform yang berada di puncak media sosial dan marketing yaitu Instagram, TikTok, Facebook, dan YouTube. 
                 Namun, kedua data yang telah ditunjukkan berasal dari global dan Amerika Serikat, sehingga masih
