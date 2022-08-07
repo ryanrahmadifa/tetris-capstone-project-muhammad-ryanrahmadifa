@@ -135,11 +135,13 @@ if page == 'Project':
                 </p>''', unsafe_allow_html=True)
     with bot2:
         st.markdown('---')
-        data_m = go.Figure(go.Bar(
-                    x=df_marketing['media'],
-                    y=df_marketing['value'],
-                    orientation='v',
-                    width=0.7))
+        data_m = px.bar(df_marketing,
+                    y='value',
+                    x='media',
+                    color='value',
+                    height= 300,
+                    range_y=[0,100],
+                    orientation='v')
         data_m.update_layout(xaxis_title="Media Sosial", yaxis_title="Persentase Marketer Memilih (%)")
         layout_m = data_m['layout'].update(margin=dict(l=0,r=0,b=0,t=0),height=300)
 
