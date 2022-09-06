@@ -139,7 +139,7 @@ if page == 'Project':
                     y='value',
                     x='media',
                     color = 'media',
-                    color_discrete_map={'Instagram': '#AB63FA','TikTok': '#19D3F3','YouTube':'#EF553B','Facebook':'#636EFA','Pinterest':'#FFA15A','Twitter':'#FF6692','Snapchat':'#B6E880','Blogs':'#FF97FF','#FECB52'},
+                    color_discrete_map={'Instagram': '#AB63FA','TikTok': '#19D3F3','YouTube':'#EF553B','Facebook':'#636EFA','Pinterest':'#FFA15A','Twitter':'#FF6692','Snapchat':'#B6E880','Blogs':'#FF97FF','Twitch':'#FECB52'},
                     height= 300,
                     range_y=[0,100],
                     orientation='v')
