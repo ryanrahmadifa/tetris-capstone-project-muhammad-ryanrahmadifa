@@ -138,6 +138,7 @@ if page == 'Project':
         data_m = px.bar(df_marketing,
                     y='value',
                     x='media',
+                    color = 'media',
                     height= 300,
                     range_y=[0,100],
                     orientation='v')
