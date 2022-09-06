@@ -142,7 +142,7 @@ if page == 'Project':
                     height= 300,
                     range_y=[0,100],
                     orientation='v')
-        data_m.update_layout(xaxis_title="Media Sosial", yaxis_title="Persentase Marketer Memilih (%)")
+        data_m.update_layout(xaxis_title="Media Sosial", yaxis_title="Persentase Marketer Memilih (%)",showlegend = False)
         layout_m = data_m['layout'].update(margin=dict(l=0,r=0,b=0,t=0),height=300)
 
         fig_m = dict(data=data_m, layout=layout_m)
