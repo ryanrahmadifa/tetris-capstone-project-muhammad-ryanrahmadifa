@@ -139,7 +139,7 @@ if page == 'Project':
                     y='value',
                     x='media',
                     color = 'media',
-                    color_discrete_map={'Instagram': 'Plotly[3]','TikTok': 'Plotly[5]','YouTube' : 'Plotly[1]','Facebook':'Plotly[0]'},
+                    color_discrete_map={'Instagram': '#AB63FA','TikTok': '#19D3F3','YouTube' : '#EF553B','Facebook':'#636EFA'},
                     height= 300,
                     range_y=[0,100],
                     orientation='v')
