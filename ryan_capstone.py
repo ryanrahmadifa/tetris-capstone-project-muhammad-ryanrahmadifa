@@ -154,7 +154,7 @@ if page == 'Project':
     act1,act2 = st.columns([1,1])
     with act1:
         summary = pd.read_csv('summary.csv')
-        fig_sum = px.scatter(summary, x="market", y="users",color='media',color_discrete_map={'Instagram': '#AB63FA','TikTok': '#19D3F3','YouTube':'red','Facebook':'#636EFA'},size = 'age', trendline='ols',trendline_scope = 'overall',trendline_color_override = 'blue')
+        fig_sum = px.scatter(summary, x="market", y="users",color='media',color_discrete_map={'Instagram': '#AB63FA','TikTok': '#19D3F3','YouTube':'red','Facebook':'#636EFA','Pinterest':'#FFA15A','Twitter':'#FF6692','Snapchat':'#B6E880'},size = 'age', trendline='ols',trendline_scope = 'overall',trendline_color_override = 'blue')
         fig_sum.update_layout( xaxis_title="Persentase Marketer Memilih (%)", yaxis_title="Pengguna Aktif Bulanan (jutaan)")
         st.plotly_chart(fig_sum, use_container_width=True)
         st.caption('Analisis Korelasi antara Jumlah User dan Trend Marketing')
