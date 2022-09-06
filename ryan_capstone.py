@@ -195,7 +195,7 @@ if page == 'Project':
             trends = df[['Week','YouTube','TikTok','Instagram','Facebook']].set_index('Week').resample('M').sum()
         else:
             trends = df[['Week','YouTube','TikTok','Instagram','Facebook']].set_index('Week').resample('Y').sum()
-        fig = px.line(trends,color_discrete_map={'Instagram': '#AB63FA','TikTok': '#19D3F3','Youtube':'#DC3912','Facebook':'#636EFA'})
+        fig = px.line(trends,color_discrete_map={'Instagram': '#AB63FA','TikTok': '#19D3F3','YouTube':'#DC3912','Facebook':'#636EFA'})
 
         fig.update_layout(
             hovermode='x unified',
